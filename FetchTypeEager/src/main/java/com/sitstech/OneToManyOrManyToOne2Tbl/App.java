@@ -23,6 +23,10 @@ public class App
         List<Laptop> laptops= new ArrayList<Laptop>();
         laptops.add(laptop);
         laptops.add(laptop2);
+
+        System.out.println( "Hello World3" );
+
+        
         
         Student student =new Student();
         student.setRollNo(1);
