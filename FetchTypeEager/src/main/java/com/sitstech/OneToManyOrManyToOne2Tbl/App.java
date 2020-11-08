@@ -12,7 +12,8 @@ import org.hibernate.cfg.Configuration;
 public class App 
 {
     public static void main( String[] args )
-    {
+    {	 
+    	System.out.println( "Hello World!" );
         System.out.println( "Hello World!" );
         System.out.println( "Hello World2!" );
         Laptop laptop = new Laptop();
@@ -25,6 +26,7 @@ public class App
         laptops.add(laptop);
         laptops.add(laptop2);
 
+        System.out.println( "Hello World3" );
         System.out.println( "Hello World3" );
 
         
