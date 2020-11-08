@@ -51,7 +51,7 @@ public class App
         
         //System.out.println("student2 = "+session.get(Student.class, 1));
         tx.commit(); // session.getTransaction().commit(); this can also used instead of the give statement 
-        
+        System.out.println("hellow");
        
         
     }
